@@ -1,0 +1,62 @@
+body
+{
+    background-color: burlywood;
+}
+#Container
+{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+#Header
+{
+    grid-column: 1/3;
+    background-color: rgb(216, 85, 85);
+}
+h1{
+    text-align: center;
+}
+#Project1
+{
+    margin: auto;
+    grid-column: 1;
+}
+#Project1Detail1
+{
+    margin: auto;
+    grid-column: 2;
+}
+#Project2
+{
+    margin: auto;
+    grid-column: 1;
+}
+#Project1Detail2
+{
+    margin: auto;
+    grid-column: 2;
+}
+#Project3
+{
+    margin: auto;
+    grid-column: 1;
+}
+#Project1Detail3
+{
+    margin: auto;
+    grid-column: 2;
+}
+#Project4
+{
+    margin: auto;
+    grid-column: 1;
+}
+#Project1Detail4
+{
+    margin: auto;
+    grid-column: 2;
+}
+
+video{
+    width: 640px;
+    height: 480px;
+}

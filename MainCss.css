@@ -1,0 +1,149 @@
+body
+{
+    background-color: lightblue;
+}
+#MainContainer
+{
+    display: grid;
+    grid-template-columns: auto 60%;
+    background-color: burlywood;
+    border: 5px solid black;
+}
+#Header
+{
+    grid-column: 1;
+    background-color: rgb(216, 85, 85);
+}
+#MyProject
+{
+    padding-left: 20%;
+    grid-column: 2/span1;
+    background-color: rgb(216, 85, 85);
+}
+h1
+{
+    margin: auto;
+    padding-left: 10%;
+}
+#MyImage
+{
+    padding-left: 10%;
+}
+#AboutMe
+{
+    margin: auto;
+}
+#AboutMeHeader
+{
+    border: 5px solid orange;
+    background-color: orange;
+}
+#PAboutMe
+{
+    margin: auto;
+    font-size: 20px;
+}
+#Skill
+{
+    background-color: rgb(216, 85, 85);
+    grid-column: 1/span2;
+}
+#SkillHeader
+{
+    text-align: center;
+}
+#AboutSkill
+{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-column: 1/span1;
+}
+#Unity
+{
+    margin: auto;
+    width: 50%;
+}
+#Maya
+{
+    margin: auto;
+    width: 50%;
+}
+#C
+{
+    margin: auto;
+    width: 50%;
+}
+#CSP
+{
+    margin: auto;
+    width: 50%;
+}
+#PS
+{
+    margin: auto;
+    width: 50%;
+}
+#AN
+{
+    margin: auto;
+    width: 50%;
+}
+#Education
+{
+    background-color: rgb(216, 85, 85);
+    grid-column: 1/span2;
+}
+#EducationHeader
+{
+    text-align: center;
+}
+#AboutEducation
+{
+    padding-left: 10%;
+    grid-column: 1/span2;
+    text-align: center;
+    font-size: 20px;
+}
+#Assignment
+{
+    text-align: center;
+    grid-column: 1/span2;
+}
+#AssignmentHeader
+{
+    background-color: rgb(216, 85, 85);
+}
+#LinkGroup
+{
+    padding-left: 10%;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+a{
+    font-size: 25px;
+}
+#Contact
+{
+    text-align: center;
+    grid-column: 1/span2;
+}
+#ContactHeader
+{
+    background-color: rgb(216, 85, 85);
+}
+#ContactContainer
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+p
+{
+    background-color: coral;
+    font-size: 25px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 40%;
+    padding: 5%;
+}

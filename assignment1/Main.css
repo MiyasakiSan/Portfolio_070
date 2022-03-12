@@ -1,0 +1,87 @@
+H1{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1{
+    border: 5px solid blue;
+    border-radius: 50%;
+    background-color: rgb(67, 138, 161);
+    text-align: center;;
+}
+body
+{
+    background-color: cornsilk;
+}
+img
+{
+    width: 20%;
+}
+.Parent
+{
+    display: flex;
+}
+.Cin1
+{
+    text-align: center;
+    width: 100%;
+}
+.Cin2
+{
+    margin-left: 10%;
+    padding-right: 10%;
+    text-align: right;
+    width: 200%;
+}
+.Steptext
+{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: -50%;
+}
+.Cin6
+{
+    margin-top: 2%;
+}
+.Cin3
+{
+    text-align: center;
+}
+.Cin3Display
+{
+    width: 100%;
+    text-align: center;
+}
+H2
+{
+    margin-right: 75%;
+} 
+h2
+{
+    padding-left: 3%;
+    border-radius: 50%;
+    border: 5px solid rgb(43, 89, 241);
+    background-color: lightskyblue;
+}
+a{
+    font-size: 20px;
+}
+a:link
+{
+    color: green;
+}
+a:visited
+{
+    color: red;
+}
+a:hover
+{
+    color: blue;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
