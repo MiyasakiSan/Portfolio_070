@@ -1,149 +1,476 @@
-body
-{
-    background-color: lightblue;
+    body
+    {
+        background-color: lightblue;
+    }
+    #MainContainer
+    {
+        display: grid;
+        grid-template-columns: 30% 30% auto;
+        background-color: burlywood;
+        border: 5px solid black;
+    }
+    #Header
+    {
+        grid-column: 1;
+        background-color: rgb(216, 85, 85);
+    }
+    #MyProject
+    {
+        grid-column: 2/4;
+        font-size: 30px;
+        background-color: rgb(216, 85, 85);
+    }
+    #CenterP
+    {
+        text-align: center;
+    }
+    #TextHeader
+    {
+        text-align: center;
+    }
+    h1
+    {
+        margin: auto;
+    }
+    #MyImage
+    {
+        margin: auto;
+    }
+    #AboutMe
+    {   
+        grid-column: 2/4;
+        margin: auto;
+    }
+    #AboutMeHeader
+    {
+        text-align: center;
+        background-color: orange;
+    }
+    #AboutSkill
+    {
+        display: grid;
+        grid-column: 1/4;
+        grid-template-columns: 33% 33% auto;
+    }
+    #Skill
+    {
+        grid-column: 1/4;
+        background-color: rgb(216, 85, 85);
+    }
+    #SkillHeader
+    {
+        text-align: center;
+    }
+    #Unity
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #Maya
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #C
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #CSP
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #PS
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #AN
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #Education
+    {
+        grid-column: 1/4;
+        background-color: rgb(216, 85, 85);
+    }
+    #EducationHeader
+    {
+        text-align: center;
+    }
+    #AboutEducation
+    {
+        grid-column: 1/4;
+        text-align: center;
+        font-size: 20px;
+    }
+    #Assignment
+    {
+        grid-column: 1/4;
+        text-align: center;
+    }
+    #AssignmentHeader
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #LinkGroup
+    {
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    a{
+        font-size: 25px;
+    }
+    #Contact
+    {
+        grid-column: 1/4;
+        text-align: center;
+    }      
+    #ContactHeader
+    {
+
+        background-color: rgb(216, 85, 85);
+    }
+    #ContactContainer
+    {
+        display: grid;
+        grid-template-columns: 25% 25% 25% auto;
+    }
+    p
+    {
+        background-color: coral;
+        font-size: 25px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 40%;
+        padding: 5%;
+    } 
+    #PAboutMe
+    {
+        margin: auto;
+        border-radius: 0%;
+        font-size: 20px;
+    }
+
+@media only screen and (max-width: 768px) {
+    body
+    {
+        background-color: lightblue;
+    }
+    #MainContainer
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: burlywood;
+        border: 5px solid black;
+    }
+    #Header
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #MyProject
+    {
+        font-size: 30px;
+        background-color: rgb(216, 85, 85);
+    }
+    #CenterP
+    {
+        text-align: center;
+    }
+    #TextHeader
+    {
+        text-align: center;
+    }
+    h1
+    {
+        margin: auto;
+    }
+    #MyImage
+    {
+
+        margin: auto;
+    }
+    #AboutMe
+    {
+        margin: auto;
+    }
+    #AboutMeHeader
+    {
+        text-align: center;
+        background-color: orange;
+    }
+    #AboutSkill
+    {
+        display: grid;
+        grid-column: 1/3;
+        grid-template-columns: 50% auto;
+    }
+    #Skill
+    {
+        grid-column: 1/3;
+        background-color: rgb(216, 85, 85);
+    }
+    #SkillHeader
+    {
+        text-align: center;
+    }
+    #Unity
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #Maya
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #C
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #CSP
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #PS
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #AN
+    {
+        margin: auto;
+        width: 50%;
+    }
+    #Education
+    {
+        grid-column: 1/3;
+        background-color: rgb(216, 85, 85);
+    }
+    #EducationHeader
+    {
+        text-align: center;
+    }
+    #AboutEducation
+    {
+        grid-column: 1/3;
+        text-align: center;
+        font-size: 20px;
+    }
+    #Assignment
+    {
+        text-align: center;
+    }
+    #AssignmentHeader
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #LinkGroup
+    {
+        padding-left: 10%;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    a{
+        font-size: 25px;
+    }
+    #Contact
+    {
+        text-align: center;
+    }      
+    #ContactHeader
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #ContactContainer
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    p
+    {
+        background-color: coral;
+        font-size: 25px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 40%;
+        padding: 5%;
+    } 
+    #PAboutMe
+    {
+        margin: auto;
+        border-radius: 0%;
+        font-size: 20px;
+    }
 }
-#MainContainer
-{
-    display: grid;
-    grid-template-columns: auto 60%;
-    background-color: burlywood;
-    border: 5px solid black;
-}
-#Header
-{
-    grid-column: 1;
-    background-color: rgb(216, 85, 85);
-}
-#MyProject
-{
-    padding-left: 20%;
-    grid-column: 2/span1;
-    background-color: rgb(216, 85, 85);
-}
-h1
-{
-    margin: auto;
-    padding-left: 10%;
-}
-#MyImage
-{
-    padding-left: 10%;
-}
-#AboutMe
-{
-    margin: auto;
-}
-#AboutMeHeader
-{
-    border: 5px solid orange;
-    background-color: orange;
-}
-#PAboutMe
-{
-    margin: auto;
-    font-size: 20px;
-}
-#Skill
-{
-    background-color: rgb(216, 85, 85);
-    grid-column: 1/span2;
-}
-#SkillHeader
-{
-    text-align: center;
-}
-#AboutSkill
-{
-    display: grid;
-    grid-template-columns: 33% 33% auto;
-    grid-column: 1/span1;
-}
-#Unity
-{
-    margin: auto;
-    width: 50%;
-}
-#Maya
-{
-    margin: auto;
-    width: 50%;
-}
-#C
-{
-    margin: auto;
-    width: 50%;
-}
-#CSP
-{
-    margin: auto;
-    width: 50%;
-}
-#PS
-{
-    margin: auto;
-    width: 50%;
-}
-#AN
-{
-    margin: auto;
-    width: 50%;
-}
-#Education
-{
-    background-color: rgb(216, 85, 85);
-    grid-column: 1/span2;
-}
-#EducationHeader
-{
-    text-align: center;
-}
-#AboutEducation
-{
-    padding-left: 10%;
-    grid-column: 1/span2;
-    text-align: center;
-    font-size: 20px;
-}
-#Assignment
-{
-    text-align: center;
-    grid-column: 1/span2;
-}
-#AssignmentHeader
-{
-    background-color: rgb(216, 85, 85);
-}
-#LinkGroup
-{
-    padding-left: 10%;
-    text-align: center;
-    padding-bottom: 1.5%;
-}
-a{
-    font-size: 25px;
-}
-#Contact
-{
-    text-align: center;
-    grid-column: 1/span2;
-}
-#ContactHeader
-{
-    background-color: rgb(216, 85, 85);
-}
-#ContactContainer
-{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-p
-{
-    background-color: coral;
-    font-size: 25px;
-    width: fit-content;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 40%;
-    padding: 5%;
+
+@media only screen and (max-width: 480px) {
+    body
+    {
+        background-color: lightblue;
+    }
+    #MainContainer
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: burlywood;
+        border: 5px solid black;
+    }
+    #Header
+    {
+        grid-column: 1;
+        background-color: rgb(216, 85, 85);
+    }
+    #MyProject
+    {
+        grid-column: 1;
+        font-size: 30px;
+        background-color: rgb(216, 85, 85);
+    }
+    #CenterP
+    {
+        text-align: center;
+    }
+    #TextHeader
+    {
+        text-align: center;
+    }
+    h1
+    {
+        margin: auto;
+    }
+    #MyImage
+    {
+        grid-column: 1;
+        margin: auto;
+    }
+    #AboutMe
+    {
+        grid-column: 1;
+        margin: auto;
+    }
+    #AboutMeHeader
+    {
+        text-align: center;
+        background-color: orange;
+    }
+    #AboutSkill
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    #Skill
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #SkillHeader
+    {
+        text-align: center;
+    }
+    #Unity
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #Maya
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #C
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #CSP
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #PS
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #AN
+    {
+        grid-column: 1;
+        margin: auto;
+        width: 50%;
+    }
+    #Education
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #EducationHeader
+    {
+        text-align: center;
+    }
+    #AboutEducation
+    {
+        padding-left: 10%;
+        text-align: center;
+        font-size: 20px;
+    }
+    #Assignment
+    {
+        text-align: center;
+    }
+    #AssignmentHeader
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #LinkGroup
+    {
+        padding-left: 10%;
+        text-align: center;
+        padding-bottom: 1.5%;
+    }
+    a{
+        font-size: 25px;
+    }
+    #Contact
+    {
+        text-align: center;
+    }      
+    #ContactHeader
+    {
+        background-color: rgb(216, 85, 85);
+    }
+    #ContactContainer
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    p
+    {
+        background-color: coral;
+        font-size: 25px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 40%;
+        padding: 5%;
+    } 
+    #PAboutMe
+    {
+        margin: auto;
+        border-radius: 0%;
+        font-size: 20px;
+    }
 }
