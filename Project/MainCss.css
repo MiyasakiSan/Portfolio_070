@@ -23,6 +23,7 @@ h1{
 #Project1Detail1
 {
     margin: auto;
+    padding: 10%;
     grid-column: 2;
 }
 #Project2
@@ -33,6 +34,7 @@ h1{
 #Project1Detail2
 {
     margin: auto;
+    padding: 10%;
     grid-column: 2;
 }
 #Project3
@@ -43,6 +45,7 @@ h1{
 #Project1Detail3
 {
     margin: auto;
+    padding: 10%;
     grid-column: 2;
 }
 #Project4
@@ -53,10 +56,72 @@ h1{
 #Project1Detail4
 {
     margin: auto;
+    padding: 10%;
     grid-column: 2;
 }
-
 video{
-    width: 640px;
-    height: 480px;
+    width: 100%
+}
+
+@media only screen and (max-width: 480px) {
+    #Container
+    {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #Header
+    {
+        grid-column: 1;
+        background-color: rgb(216, 85, 85);
+    }
+    h1{
+        text-align: center;
+    }
+    #Project1
+    {
+        margin: auto;
+        grid-column: 1;
+    }
+    #Project1Detail1
+    {
+        margin: auto;
+        padding: 10%;
+        grid-column: 1;
+    }
+    #Project2
+    {
+        margin: auto;
+        grid-column: 1;
+    }
+    #Project1Detail2
+    {
+        margin: auto;
+        padding: 10%;
+        grid-column: 1;
+    }
+    #Project3
+    {
+        margin: auto;
+        grid-column: 1;
+    }
+    #Project1Detail3
+    {
+        margin: auto;
+        padding: 10%;
+        grid-column: 1;
+    }
+    #Project4
+    {
+        margin: auto;
+        grid-column: 1;
+    }
+    #Project1Detail4
+    {
+        margin: auto;
+        padding: 10%;
+        grid-column: 1;
+    }
+    video{
+        width: 100%
+    }
 }
